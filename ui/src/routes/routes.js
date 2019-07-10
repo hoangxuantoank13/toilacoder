@@ -1,6 +1,4 @@
-import routesAdmin from "./routesAdmin";
+import routesAdmin from "./routesAdmin"
 import routesBlog from "./routesBlog"
 
-export default function() {
-    return [...routesAdmin,...routesBlog]
-}
+export default [...routesAdmin, ...routesBlog]
