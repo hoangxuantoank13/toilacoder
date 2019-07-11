@@ -1,13 +1,20 @@
 // Layout Types
-import { DefaultLayout } from "../layouts";
+import { BlogLayout } from "../layouts";
+import BlogDetailsLeftSidebar from '../views/blog/BlogDetailsLeftSidebar';
+import BlogLeftSidebar from '../views/blog/BlogLeftSidebar';
 
 // Route Views
-import BlogOverview from '../views/admin/BlogOverview';
+
 
 export default [
   {
     path: "/",
-    layout: DefaultLayout,
-    component: BlogOverview
+    layout: BlogLayout,
+    component: BlogLeftSidebar
+  },
+  {
+    path: "/blog-details",
+    layout: BlogLayout,
+    component: BlogDetailsLeftSidebar
   }
 ];

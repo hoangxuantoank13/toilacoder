@@ -6,7 +6,7 @@ import MainNavbar from '../components/admin/layout/MainNavbar/MainNavbar';
 import MainSidebar from '../components/admin/layout/MainSidebar/MainSidebar';
 import MainFooter from '../components/admin/layout/MainFooter';
 
-const DefaultLayout = ({ children, noNavbar, noFooter }) => (
+const AdminLayout = ({ children, noNavbar, noFooter }) => (
   <Container fluid>
     <Row>
       <MainSidebar />
@@ -25,7 +25,7 @@ const DefaultLayout = ({ children, noNavbar, noFooter }) => (
   </Container>
 );
 
-DefaultLayout.propTypes = {
+AdminLayout.propTypes = {
   /**
    * Whether to display the navbar, or not.
    */
@@ -36,9 +36,9 @@ DefaultLayout.propTypes = {
   noFooter: PropTypes.bool
 };
 
-DefaultLayout.defaultProps = {
+AdminLayout.defaultProps = {
   noNavbar: false,
   noFooter: false
 };
 
-export default DefaultLayout;
+export default AdminLayout;

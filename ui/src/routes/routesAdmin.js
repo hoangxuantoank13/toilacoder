@@ -1,5 +1,5 @@
 // Layout Types
-import { DefaultLayout } from "../layouts";
+import { AdminLayout } from "../layouts";
 
 // Route Views
 import BlogOverview from '../views/admin/BlogOverview';
@@ -14,42 +14,42 @@ const BASE_PATH = process.env.REACT_APP_ADMIN_PATH
 export default [
   {
     path: BASE_PATH + "/blog-overview",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: BlogOverview
   },
   {
     path: BASE_PATH + "/user-profile-lite",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: UserProfileLite
   },
   {
     path: BASE_PATH + "/add-new-post",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: AddNewPost
   },
   {
     path: BASE_PATH + "/errors",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: Errors
   },
   {
     path: BASE_PATH + "/components-overview",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: ComponentsOverview
   },
   {
     path: BASE_PATH + "/tables",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: Tables
   },
   {
     path: BASE_PATH + "/blog-posts",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: BlogPosts
   },
   {
     path: BASE_PATH + "/blog-posts",
-    layout: DefaultLayout,
+    layout: AdminLayout,
     component: BlogPosts
   }
 ];  
