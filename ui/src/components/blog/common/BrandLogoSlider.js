@@ -52,6 +52,7 @@ class BrandLogoSlider extends Component{
                     <div className="image text-center">
                         <a href={val.logoLink}>
                             <img src={`assets/img/brand-logo/${val.img}`} className="img-fluid" alt="" />
+                            {/* <img src={require(`../../../assets/img/brand-logo/${val.img}`)} className="img-fluid" alt="" /> */}
                         </a>
                     </div>
                 </div>

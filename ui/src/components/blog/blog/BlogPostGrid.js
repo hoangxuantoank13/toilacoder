@@ -18,6 +18,7 @@ class BlogPostGrid extends Component{
                     <div className="blog-post-slider__single-slide blog-post-slider__single-slide--grid-view">
                         <div className="blog-post-slider__image section-space--bottom--30">
                         <a href={`${process.env.PUBLIC_URL}/${val.postLink}`}><img src={`assets/img/blog/${val.postImg}`} className="img-fluid" alt="" /></a>
+                        {/* <a href={`${process.env.PUBLIC_URL}/${val.postLink}`}><img src={require(`../../../assets/img/blog/${val.postImg}`)} className="img-fluid" alt="" /></a> */}
                         </div>
                         <div className="blog-post-slider__content">
                         <p className="post-date">{val.postDate}</p>

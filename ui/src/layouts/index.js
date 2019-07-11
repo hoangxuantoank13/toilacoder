@@ -1,3 +1,4 @@
 import AdminLayout from "./Admin";
+import BlogLayout from './Blog';
 
-export { AdminLayout };
+export { AdminLayout, BlogLayout };

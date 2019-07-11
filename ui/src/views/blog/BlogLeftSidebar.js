@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BlogPostGrid from '../../components/blog/blog/BlogPostGrid';
 import Sidebar from '../../components/blog/blog/Sidebar';
 

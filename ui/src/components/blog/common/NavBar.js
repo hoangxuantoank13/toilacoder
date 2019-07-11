@@ -84,6 +84,7 @@ class NavBar extends Component{
                                     <div className="logo">
                                         <Link to = {`${process.env.PUBLIC_URL}/home-one`}>
                                             <img src="assets/img/logo/logo.png" className="img-fluid" alt="Logo" />
+                                            {/* <img src={require("../../../assets/img/logo/logo.png")} className="img-fluid" alt="Logo" /> */}
                                         </Link>
                                     </div>
                                     {/* header contact info */}
