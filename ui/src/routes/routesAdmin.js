@@ -46,10 +46,5 @@ export default [
     path: BASE_PATH + "/blog-posts",
     layout: AdminLayout,
     component: BlogPosts
-  },
-  {
-    path: BASE_PATH + "/blog-posts",
-    layout: AdminLayout,
-    component: BlogPosts
   }
 ];  

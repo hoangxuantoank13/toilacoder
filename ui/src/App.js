@@ -5,8 +5,7 @@ import routes from "./routes/routes";
 import withTracker from "./withTracker";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/admin/shards-dashboards.1.1.0.min.css";
-import "./styles/blog/scss/castro.scss"
+import "./index.css";
 import 'react-id-swiper/lib/styles/css/swiper.css';
 
 export default () => (

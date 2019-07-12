@@ -30,7 +30,8 @@
     "build:prod": "cross-env REACT_APP_BASENAME=/ REACT_APP_GAID=UA-115105611-1 npm run build",
     "build": "cross-env REACT_APP_BASENAME=/ react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-css": "node-sass --include-path scss ./src/styles/blog/scss/castro.scss ./src/styles/blog/castro.1.0.css"
   },
   "eslintConfig": {
     "extends": "react-app"

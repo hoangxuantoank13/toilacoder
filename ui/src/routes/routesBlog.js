@@ -1,6 +1,8 @@
+import React from "react";
+import { Redirect } from "react-router-dom";
 // Layout Types
 import { BlogLayout } from "../layouts";
-import BlogDetailsLeftSidebar from '../views/blog/BlogDetailsLeftSidebar';
+// import BlogDetailsLeftSidebar from '../views/blog/BlogDetailsLeftSidebar';
 import BlogLeftSidebar from '../views/blog/BlogLeftSidebar';
 
 // Route Views
@@ -9,12 +11,13 @@ import BlogLeftSidebar from '../views/blog/BlogLeftSidebar';
 export default [
   {
     path: "/",
+    exact: true,
     layout: BlogLayout,
-    component: BlogLeftSidebar
+    component: () => <Redirect to="/home" />
   },
   {
-    path: "/blog-details",
+    path: "/home",
     layout: BlogLayout,
-    component: BlogDetailsLeftSidebar
+    component: BlogLeftSidebar
   }
 ];
