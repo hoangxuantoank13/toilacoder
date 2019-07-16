@@ -14,8 +14,8 @@ class BlogGrid extends Component{
                 <div className="col-lg-4" key={i}>
                     <div className="blog-post-slider__single-slide blog-post-slider__single-slide--grid-view">
                         <div className="blog-post-slider__image section-space--bottom--30">
-                            <a href={`${process.env.PUBLIC_URL}/${val.link}`}><img src={`assets/img/blog/${val.img}`} className="img-fluid" alt="" /></a>
-                            {/* <a href={`${process.env.PUBLIC_URL}/${val.link}`}><img src={require(`../../../assets/img/blog/${val.img}`)} className="img-fluid" alt="" /></a> */}
+                            {/* <a href={`${process.env.PUBLIC_URL}/${val.link}`}><img src={`assets/img/blog/${val.img}`} className="img-fluid" alt="" /></a> */}
+                            <a href={`${process.env.PUBLIC_URL}/${val.link}`}><img src={require(`../../../assets/img/blog/${val.img}`)} className="img-fluid" alt="" /></a>
                             </div>
                             <div className="blog-post-slider__content">
                             <p className="post-date"> {val.date}</p>

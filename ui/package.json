@@ -13,13 +13,16 @@
     "lodash.find": "^4.6.0",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-countup": "^4.2.0",
     "react-dom": "^16.6.3",
     "react-ga": "^2.5.6",
     "react-id-swiper": "^2.3.1",
+    "react-modal-video": "^1.2.2",
     "react-quill": "^1.3.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "react-scroll": "^1.7.12",
+    "react-visibility-sensor": "^5.1.0",
     "shards-react": "^1.0.0",
     "shortid": "^2.2.14",
     "swiper": "^4.5.0"
@@ -27,8 +30,9 @@
   "scripts": {
     "start": "react-scripts start",
     "prebuild": "rimraf ../ui-dist",
-    "build:prod": "cross-env REACT_APP_BASENAME=/ REACT_APP_GAID=UA-115105611-1 npm run build",
-    "build": "cross-env REACT_APP_BASENAME=/ react-scripts build",
+    "build:prod": "npm run build",
+    "build": "react-scripts build",
+    "postbuild": "rimraf ../ui-dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-css": "node-sass --include-path scss ./src/styles/blog/scss/castro.scss ./src/styles/blog/castro.1.0.css"

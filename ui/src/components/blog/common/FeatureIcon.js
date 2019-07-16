@@ -14,7 +14,7 @@ class FeatureIcon extends Component{
                 <div className="col-lg-4 col-md-6 col-12 section-space--bottom--30" key={i}>
                     <div className="feature">
                     <div className="icon">
-                        <img src={`assets/img/icons/${val.featureIcon}`} className="img-fluid" alt="" />
+                        <img src={require(`../../../assets/img/icons/${val.featureIcon}`)} className="img-fluid" alt="" />
                     </div>
                     <div className="content">
                         <h3>{val.featureTitle}</h3>

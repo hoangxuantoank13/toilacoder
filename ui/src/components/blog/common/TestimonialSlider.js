@@ -31,7 +31,7 @@ class TestimonialSlider extends Component{
                 <div className="swiper-slide testimonial-slider__single-slide" key={i}>
                     <div className="author">
                         <div className="author__image">
-                        <img src={`assets/img/testimonial/${val.testimonialImage}`} alt="" />
+                        <img src={require(`../../../assets/img/testimonial/${val.testimonialImage}`)} alt="" />
                         </div>
                         <div className="author__details">
                         <h4 className="name">{val.testimonialName}</h4>

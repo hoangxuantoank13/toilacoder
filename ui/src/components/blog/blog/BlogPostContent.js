@@ -22,8 +22,8 @@ class BlogPostContent extends Component{
                 <div className="row">
                     <div className="blog-details col-12">
                     <div className="blog-inner">
-                        {/* <div className="media"><div className="image"><img src="assets/img/blog/blog-details-1.jpg" alt="" /></div></div> */}
-                        <div className="media"><div className="image"><img src={require("../../../assets/img/blog/blog-details-1.jpg")} alt="" /></div></div>
+                        <div className="media"><div className="image"><img src="assets/img/blog/blog-details-1.jpg" alt="" /></div></div>
+                        {/* <div className="media"><div className="image"><img src={require("../../../assets/img/blog/blog-details-1.jpg")} alt="" /></div></div> */}
                         <div className="content">
                         <ul className="meta">
                             <li>By <a href="blog-left-sidebar">admin</a></li>

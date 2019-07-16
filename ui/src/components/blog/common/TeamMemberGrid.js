@@ -18,7 +18,7 @@ class TeamMemberGrid extends Component{
                 <div className="col-lg-3 col-sm-6 col-12 section-space--bottom--30" key={i}>
                     <div className="team">
                         <div className="image">
-                        <img src={`assets/img/team/${val.profileImage}`} alt="" />
+                        <img src={require(`../../../assets/img/team/${val.profileImage}`)} alt="" />
                         </div>
                         <div className="content">
                         <h3 className="title">{val.profileTitle}</h3>

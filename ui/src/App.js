@@ -7,6 +7,7 @@ import withTracker from "./withTracker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import 'react-id-swiper/lib/styles/css/swiper.css';
+import 'react-modal-video/scss/modal-video.scss';
 
 export default () => (
   <Router basename={process.env.REACT_APP_BASENAME || ""}>

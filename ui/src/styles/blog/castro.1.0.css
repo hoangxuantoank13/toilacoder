@@ -3682,6 +3682,8 @@ input::placeholder {
     .header-info-single-item__icon i {
       line-height: 50px;
       font-size: 26px; }
+  .header-info-single-item__content {
+    align-self: center; }
   .header-info-single-item__title {
     font-size: 18px;
     line-height: 1.5;
@@ -4116,13 +4118,13 @@ input::placeholder {
 =============================================*/
 /* background images */
 .funfact-bg {
-  background-image: url("/assets/img/backgrounds/funfact-bg.jpg"); }
+  background-image: url("../../assets/img/backgrounds/funfact-bg.jpg"); }
 
 .testimonial-slider-area-bg {
-  background-image: url("/assets/img/backgrounds/testimonial.jpg"); }
+  background-image: url("../../assets/img/backgrounds/testimonial.jpg"); }
 
 .breadcrumb-bg {
-  background-image: url("/assets/img/backgrounds/funfact-bg.jpg"); }
+  background-image: url("../../assets/img/backgrounds/funfact-bg.jpg"); }
 
 .white-bg {
   background-color: #ffffff; }

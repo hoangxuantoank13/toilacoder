@@ -24,16 +24,16 @@ class Sidebar extends Component{
         /* sidebar popular post */
         
         let popularPostData = [
-            {postImage: 'sidebar-blog-1.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details-left-sidebar', postDate: '30 October 2019'},
-            {postImage: 'sidebar-blog-2.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details-left-sidebar', postDate: '30 October 2019'},
-            {postImage: 'sidebar-blog-3.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details-left-sidebar', postDate: '30 October 2019'}
+            {postImage: 'sidebar-blog-1.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details', postDate: '30 October 2019'},
+            {postImage: 'sidebar-blog-2.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details', postDate: '30 October 2019'},
+            {postImage: 'sidebar-blog-3.jpg', postTitle: 'What are Groundworkers and what do they do?', postLink: 'blog-details', postDate: '30 October 2019'}
         ];
 
         let popularPostDataList = popularPostData.map((val, i)=>{
             return(
                 <div className="sidebar-blog" key={i}>
-                <a href="blog-details-left-sidebar.html" className="image"><img src={`assets/img/blog/${val.postImage}`} alt="" /></a>
-                {/* <a href="blog-details-left-sidebar.html" className="image"><img src={require(`../../../assets/img/blog/${val.postImage}`)} alt="" /></a> */}
+                {/* <a href="blog-details-left-sidebar.html" className="image"><img src={`assets/img/blog/${val.postImage}`} alt="" /></a> */}
+                <a href="blog-details-left-sidebar.html" className="image"><img src={require(`../../../assets/img/blog/${val.postImage}`)} alt="" /></a>
                     <div className="content">
                         <h5><a href={`${process.env.PUBLIC_URL}/${val.postLink}`}>What are Groundworkers and what do they do?</a></h5>
                         <span>{val.postDate}</span>

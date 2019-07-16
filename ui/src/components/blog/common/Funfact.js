@@ -28,7 +28,7 @@ class Funfact extends Component{
         let DataList = data.map((val, i)=>{
             return(
                 <div className="single-fact col-md-3 col-6 section-space--bottom--30" key={i}>
-                    <img src={`assets/img/icons/${val.img}`} alt="" />
+                    <img src={require(`../../../assets/img/icons/${val.img}`)} alt="" />
                     <h1 className="counter">
                     <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall>
                         <CountUp end={this.state.didViewCountUp ? val.countNum : 0} />

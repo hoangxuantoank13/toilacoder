@@ -13,7 +13,7 @@ const BlogLayout = ({ children}) => (
 
     {/* breadcrumb */}
     {/*====================  breadcrumb area ====================*/}
-    <div className="breadcrumb-area breadcrumb-bg">
+    {/* <div className="breadcrumb-area breadcrumb-bg">
       <div className="container">
         <div className="row">
           <div className="col">
@@ -28,7 +28,7 @@ const BlogLayout = ({ children}) => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/*====================  End of breadcrumb area  ====================*/}
 
     {/*====================  page content ====================*/}
